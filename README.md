@@ -20,6 +20,8 @@ Secret messages are RAD! See if you can decode this message below, where each le
   The fully decoded message will be HELLO WORLD.
 </details><br>
 
+![Encrypt this!](https://media.giphy.com/media/A06UFEx8jxEwU/giphy.gif)
+
 This type of code is called a Caesar Cipher, and it's one of the oldest methods of encryption ever used. The message used in the example had an offset of 1, since each letter was one further down the alphabet than the original, but you can offset a caesar cipher by any number - you'll just move that much further along the alphabet for any letter you wish to encode.
 
 ## The Goal
