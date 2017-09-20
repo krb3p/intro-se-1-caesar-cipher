@@ -5,17 +5,17 @@
 Secret messages are RAD! See if you can decode this message below, where each letter actually represents a different letter. The hint you'll get is that M's are actually meant to be L's.
 
 <details>
-  <summary>Encoded: Ifmmp Xpsme  ->  Decoded:  _ _ L L _   _ _ _ L _ </summary><br>
+  <summary>Encoded: Ifmmp Xpsme  <br>  Decoded:  _ _ L L _   _ _ _ L _ </summary><br>
 
 
   Each letter has been encoded by moving just one further down the alphabet than the original letter. Since L changed to M by going one further down, we can undo the message by going one letter backwards up the alphabet.
 
-  That means the first letter, I, should actually be an H.
-  The F should be an E.
-  The P's should be O's.
-  The X should be a W.
-  The S should be an R.
-  The E should be a D.
+  * That means the first letter, I, should actually be an H.
+  * The F should be an E.
+  * The P's should be O's.
+  * The X should be a W.
+  * The S should be an R.
+  * The E should be a D.
 
   The fully decoded message will be HELLO WORLD.
 </details><br>
@@ -29,11 +29,13 @@ There are couple of different ways to do this, but the goal is simple: create tw
 Try writing lines of code to test your file in the testcipher.rb file:
 
 ###### Code to test your encode method.
+
 ```ruby
 puts encode("Ruby is fun", 8) # => prints out the string "Zcjg qa ncv"
 ```
 
 ###### Code to test your decode method.
+
 ```ruby
 puts decode("Zcjg qa ncv", 8) # => prints out the string "Ruby is fun"
 ```
